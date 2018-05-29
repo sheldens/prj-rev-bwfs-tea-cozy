@@ -1,0 +1,112 @@
+
+body {
+  width: 1200px;
+  font-family: Helvetica;
+  font-size: 22px;
+  background-color: black;
+  color: seashell;
+  opacity: 0.9;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.header{
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+    text-align: left;
+}
+.logo img {
+  width: 150px;
+}
+.links {
+  padding-right: 200px;
+}
+.links a{
+  text-align: right;
+  padding-right: 30px;
+  color: seashell;
+}
+.firstSection {
+  background-image: url("../potpourri.jpg");
+  width: 1200px;
+  height: 490px;
+  padding-top: 310px;
+}
+.firstSection p{
+  background-color: black;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.firstSection span{
+  font-size: 30px;
+}
+.secondSection {
+  width: 1000px;
+  display: inline-block;
+  justify-content: center;
+}
+.secondSection h1, h3 {
+  width: 1200px;
+
+}
+.secondSection p {
+  font-size: 14px;
+  justify-content: center;
+  display: inline-flex;
+  font-weight: bold;
+}
+.thirdSection{
+  background-image: url("../table-with-coffee.jpg");
+  width: 1200px;
+  height: 600px;
+  padding-top: 40px;
+}
+.thirdSection h1 {
+  font-size: 24px;
+}
+.blocksInThird {
+  display: flex;
+flex-direction: row;
+  justify-content: space-around;
+  font-size: 20px;
+  line-height: 2.0;
+}
+.thirdSection p {
+  background-color: black;
+  width: 350px;
+  height: 200px;
+  padding-top: 40px;
+}
+.firstBlock {
+
+}
+
+.footer {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.6;
+  }
+.footer span{
+  font-size: 26px;
+}
+.copyright {
+  text-align: left;
+  font-size: 13px;
+}
+img {
+  width: 300px;
+}
+.picsFirstRow, .picsSecondRow {
+  display: flex;
+  justify-content: center;
+}
+.pic1, .pic2, .pic3, .pic4, .pic5 {
+  display: inline-flex;
+  flex-direction: column;
+  margin: 10px;
+}
